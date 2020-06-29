@@ -84,8 +84,77 @@
     }
 }
 
-.social-github{
-    height: 50px;
-    width: 50px;
-    color: black;
+.bottom{
+        margin-top:150px;
+      .list{
+        text-decoration: none;
+        list-style: none;
+        padding-left: 0px;
+        position: fixed;
+        bottom: 10px;
+    
+    }
+    .social{
+        height: fit-content;
+        width: fit-content;
+        color: rgb(100, 255, 218);
+    }
+    
+    .about{
+        // margin-left: 12%;
+        svg{
+            margin-top: 50px;
+            padding-top: 50px;
+            width: 380px;
+        }
+        h2{
+            position: relative;
+            width: 400px;
+            font-size: 32px;
+            color: rgb(204, 214, 246);
+            margin-bottom: 50px;
+        }
+        h2:after{
+            content:"";
+            position: absolute;
+            bottom: 0px;
+            left: 150px;
+            right: 0;
+            height: 0.5em;
+            border-top: 1px solid rgb(204, 214, 246);;
+            z-index: -1;
+        }
+        p{
+            font-size: 20px;
+            color: rgb(204, 214, 246);
+            line-height: 1.5;
+            width: 800px;
+        }
+        ul,.list-group-item{
+            color: rgb(204, 214, 246);
+            font-size: 14.5px;
+            background-color: transparent;
+            border-width: 0px;
+        }
+    }
+    .experience{
+        margin-top: 10%;
+        h2{
+            position: relative;
+            width: 400px;
+            font-size: 32px;
+            color: rgb(204, 214, 246);
+            margin-bottom: 50px;
+        }
+        h2:after{
+            content:"";
+            position: absolute;
+            bottom: 0px;
+            left: 170px;
+            right: 0;
+            height: 0.5em;
+            border-top: 1px solid rgb(204, 214, 246);;
+            z-index: -1;
+        }
+    }
 }
