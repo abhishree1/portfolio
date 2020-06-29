@@ -7,5 +7,13 @@
 }
 
 #logo path:only-child{
-    stroke-dasharray: 20px;
+    stroke-dasharray: 572px;
+    stroke-dashoffset: 572px;
+    animation: line-anim 3s ease forwards;
+}
+
+@keyframes line-anim{
+    to{
+        stroke-dashoffset: 0;
+    }
 }
